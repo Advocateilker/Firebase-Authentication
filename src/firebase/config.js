@@ -6,12 +6,12 @@ import store from '../store/index.js'
 import { login as loginHandle, logout as logoutHandle } from "../store/auth.js"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQkufg0WAeWr_jcLv0_wj8BiSQg_hqqPk",
-  authDomain: "auth-adcef.firebaseapp.com",
-  projectId: "auth-adcef",
-  storageBucket: "auth-adcef.appspot.com",
-  messagingSenderId: "829015521199",
-  appId: "1:829015521199:web:358d461803a7d7d8d8a15a"
+  apiKey: SECRET,
+  authDomain: SECRET,
+  projectId:SECRET,
+  storageBucket: SECRET,
+  messagingSenderId:  SECRET,
+  appId: SECRET
 };
 
 
